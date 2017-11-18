@@ -86,6 +86,7 @@ let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 colorscheme solarized
 let g:solarized_termcolors=16
+let g:solarized_termtrans = 1 " This gets rid of the grey background
 
 " Indent
 set autoindent
