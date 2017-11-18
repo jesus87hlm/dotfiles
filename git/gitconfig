@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Jesús
+email = jesus87hlm@gmail.com
+
+[alias]
+    s = status
+    d = diff
+    dc = diff --cached
+    a = add
+    aa = add --all
+    ap = add --patch
+    au = add --update
+    lg = !git --no-pager log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -n 20
+    llg = !git --no-pager log --all --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    c = commit --verbose
+    ca = commit --amend
+    co = checkout
+[core]
+	excludesfile = ~/.gitignore_global
+
