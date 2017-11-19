@@ -1,3 +1,7 @@
+" Leader
+let mapleader = ','
+let maplocalleader="\<Space>"
+
 """""""""
 " Vundle
 """""""""
@@ -160,10 +164,6 @@ noremap k gk
 
 " Disable Ex mode, use it to close buffers
 nnoremap Q :bd<cr>
-
-" Leader
-let mapleader = ','
-let maplocalleader="\<Space>"
 
 " Move between splits
 nnoremap <C-J> <C-W><C-J>
