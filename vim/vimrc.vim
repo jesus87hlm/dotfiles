@@ -1,7 +1,7 @@
 " Leader
 let mapleader = ','
 let maplocalleader="\<Space>"
-
+set t_Co=256
 """""""""
 " Vundle
 """""""""
@@ -17,6 +17,8 @@ Plugin 'benmills/vimux'
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
 Plugin 'mileszs/ack.vim' " search recursively in all the directories :Ack
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 
 """"""""""
@@ -41,6 +43,12 @@ call plug#end()
 
 let g:plug_window = "split new"
 
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline_theme='luna'
+" let g:airline_solarized_bg='dark'
+let g:airline_powerline_fonts = 1
 " NerdTree
 " Toggle NERDTree
 nmap <silent> <leader>k :NERDTreeToggle<cr>
@@ -164,6 +172,7 @@ noremap k gk
 
 " Disable Ex mode, use it to close buffers
 nnoremap Q :bd<cr>
+nnoremap <leader>q  :bp\|bd #<CR>
 
 " Move between splits
 nnoremap <C-J> <C-W><C-J>
