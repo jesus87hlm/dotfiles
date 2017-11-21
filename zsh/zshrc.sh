@@ -5,7 +5,20 @@ export ZSH=/Users/jesus/.oh-my-zsh
 # autoload -U promptinit; promptinit
 # prompt pure
 
-plugins=(git zsh-syntax-highlighting osx brew history taskwarrior tmux tmuxinator zsh-autosuggestions battery zsh-completions)
+plugins=(
+        git
+        zsh-syntax-highlighting
+        osx
+        brew
+        history
+        taskwarrior
+        tmux
+        tmuxinator
+        zsh-autosuggestions
+        battery
+        zsh-completions
+)
+
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -U compinit && compinit
 # ZSH_THEME="pure"

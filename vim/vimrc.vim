@@ -45,7 +45,7 @@ let g:plug_window = "split new"
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline_theme='luna'
 " let g:airline_solarized_bg='dark'
 let g:airline_powerline_fonts = 1
