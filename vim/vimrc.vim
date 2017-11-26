@@ -59,9 +59,8 @@ let NERDTreeShowHidden=1
 let NERDTreeDirArrowExpandable = '▷'
 let NERDTreeDirArrowCollapsible = '▼'
 
-" Start nerdTree when opening vim without arguments
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Start nerdTree always
+autocmd vimenter * NERDTree
 
 " FZF
 """""""""""""""""""""""""""""""""""""
