@@ -18,6 +18,7 @@ plugins=(
         battery
         zsh-completions
 )
+source ~/.bin/tmuxinator.zsh
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -U compinit && compinit
