@@ -39,6 +39,8 @@ Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'vim-ruby/vim-ruby'
+Plug 'ludovicchabant/vim-gutentags'
+
 call plug#end()
 
 let g:plug_window = "split new"
@@ -60,7 +62,7 @@ let NERDTreeDirArrowExpandable = '▷'
 let NERDTreeDirArrowCollapsible = '▼'
 
 " Start nerdTree always
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " FZF
 """""""""""""""""""""""""""""""""""""
@@ -73,6 +75,14 @@ nmap <silent> <leader>b :buffers<cr>
 nmap <leader><tab> <plug>(fzf-maps-n)
 xmap <leader><tab> <plug>(fzf-maps-x)
 omap <leader><tab> <plug>(fzf-maps-o)
+
+" GutenTags
+let g:gutentags_cache_dir = '~/.vim/gutentags'
+let g:gutentags__ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
+                            \ '*.phar', '*.ini', '*.rst', '*.md',
+                            \ '*vendor/*/test*', '*vendor/*/Test*',
+                            \ '*vendor/*/fixture*', '*vendor/*/Fixture*',
+                            \ '*var/cache*', '*var/log*']
 
 " Insert mode completion
 imap <c-x><c-k> <plug>(fzf-complete-word)
@@ -172,6 +182,7 @@ noremap · ^
 " Move through wrapped lines
 noremap j gj
 noremap k gk
+inoremap jh <ESC>
 
 " Disable Ex mode, use it to close buffers
 nnoremap Q :bd<cr>
@@ -276,7 +287,7 @@ set statusline+=%{&fileformat}]              " file format
 " set statusline+=[%{&sw},%{&sts},%{&ts}]    " indentation stuff
 set statusline+=%=                           " right align
 set statusline+=%v:%l\ of\ %L\ (%p%%)%<         " offset
-
+set statusline+=%{gutentags#statusline()}
 
 if has('nvim')
     nmap <BS> <C-W>h

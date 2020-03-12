@@ -1,0 +1,646 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6f7654b/
+$(PLUGIN_TARGET)	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^$(PLUGIN_TARGET): $(HEADER_FILES) $(SRC_FILES)$/;"	t
++vi-git-aheadbehind	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-git-aheadbehind() {$/;"	f
++vi-git-remotebranch	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-git-remotebranch() {$/;"	f
++vi-git-stash	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-git-stash() {$/;"	f
++vi-git-tagname	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-git-tagname() {$/;"	f
++vi-git-untracked	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-git-untracked() {$/;"	f
++vi-hg-bookmarks	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-hg-bookmarks() {$/;"	f
++vi-svn-detect-changes	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-svn-detect-changes() {$/;"	f
++vi-vcs-detect-changes	zsh/custom/themes/powerlevel9k/functions/vcs.zsh	/^function +vi-vcs-detect-changes() {$/;"	f
+--	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^    REPLY="${"$(alias -- $arg)"#*=}"$/;"	a
+--	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^alias -- +plus=plus$/;"	a
+--	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^alias -- _other=other$/;"	a
+-L	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^if [[ $original_alias_dash_L_output == $(alias -L) ]]; then$/;"	a
+-Lm	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^zsh_highlight__aliases=`builtin alias -Lm '[^+]*'`$/;"	a
+-s	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^alias -s alias2="echo"$/;"	a
+.zshenv or .zshrc	zsh/custom/pure/readme.md	/^# .zshenv or .zshrc$/;"	c
+.zshrc	zsh/custom/pure/readme.md	/^# .zshrc$/;"	c
+0	zsh/custom/pure/package.json	/^    "pure.zsh",$/;"	s	array:files
+0	zsh/custom/pure/package.json	/^    "zsh",$/;"	s	array:keywords
+0	zsh/custom/pure/package.json	/^    {$/;"	o	array:maintainers
+1	zsh/custom/pure/package.json	/^    "async.zsh"$/;"	s	array:files
+1	zsh/custom/pure/package.json	/^    "zshell",$/;"	s	array:keywords
+10	zsh/custom/pure/package.json	/^    "fast",$/;"	s	array:keywords
+11	zsh/custom/pure/package.json	/^    "minimal",$/;"	s	array:keywords
+12	zsh/custom/pure/package.json	/^    "pretty"$/;"	s	array:keywords
+2	zsh/custom/pure/package.json	/^    "sh",$/;"	s	array:keywords
+3	zsh/custom/pure/package.json	/^    "shell",$/;"	s	array:keywords
+4	zsh/custom/pure/package.json	/^    "bash",$/;"	s	array:keywords
+5	zsh/custom/pure/package.json	/^    "pure",$/;"	s	array:keywords
+6	zsh/custom/pure/package.json	/^    "prompt",$/;"	s	array:keywords
+7	zsh/custom/pure/package.json	/^    "theme",$/;"	s	array:keywords
+8	zsh/custom/pure/package.json	/^    "git",$/;"	s	array:keywords
+9	zsh/custom/pure/package.json	/^    "async",$/;"	s	array:keywords
+<BS>	vim/vimrc.vim	/^    nmap <BS> <C-W>h$/;"	m
+<C-H>	vim/vimrc.vim	/^nnoremap <C-H> <C-W><C-H>$/;"	m
+<C-J>	vim/vimrc.vim	/^nnoremap <C-J> <C-W><C-J>$/;"	m
+<C-K>	vim/vimrc.vim	/^nnoremap <C-K> <C-W><C-K>$/;"	m
+<C-L>	vim/vimrc.vim	/^nnoremap <C-L> <C-W><C-L>$/;"	m
+<S-tab>	vim/vimrc.vim	/^nnoremap <S-tab> :bp<cr>$/;"	m
+<c-d>	vim/vimrc.vim	/^noremap <c-d> <c-\\><c-n>$/;"	m
+<c-x><c-f>	vim/vimrc.vim	/^imap <c-x><c-f> <plug>(fzf-complete-path)$/;"	m
+<c-x><c-j>	vim/vimrc.vim	/^imap <c-x><c-j> <plug>(fzf-complete-file-ag)$/;"	m
+<c-x><c-k>	vim/vimrc.vim	/^imap <c-x><c-k> <plug>(fzf-complete-word)$/;"	m
+<c-x><c-l>	vim/vimrc.vim	/^imap <c-x><c-l> <plug>(fzf-complete-line)$/;"	m
+<cr>	vim/vimrc.vim	/^nnoremap <silent> <cr> :nohlsearch<cr>$/;"	m
+<f5>	vim/vimrc.vim	/^nnoremap <f5> :UndotreeToggle<cr>$/;"	m
+<leader><leader>	vim/vimrc.vim	/^nnoremap <leader><leader> :checktime<cr>$/;"	m
+<leader><tab>	vim/vimrc.vim	/^nmap <leader><tab> <plug>(fzf-maps-n)$/;"	m
+<leader><tab>	vim/vimrc.vim	/^omap <leader><tab> <plug>(fzf-maps-o)$/;"	m
+<leader><tab>	vim/vimrc.vim	/^xmap <leader><tab> <plug>(fzf-maps-x)$/;"	m
+<leader>b	vim/vimrc.vim	/^nmap <silent> <leader>b :buffers<cr>$/;"	m
+<leader>ev	vim/vimrc.vim	/^nnoremap <leader>ev :vsplit $MYVIMRC<cr>$/;"	m
+<leader>k	vim/vimrc.vim	/^nmap <silent> <leader>k :NERDTreeToggle<cr>$/;"	m
+<leader>n	vim/vimrc.vim	/^nnoremap <leader>n :call RenameFile()<cr>$/;"	m
+<leader>q	vim/vimrc.vim	/^nnoremap <leader>q  :bp\\|bd #<CR>$/;"	m
+<leader>sv	vim/vimrc.vim	/^nnoremap <leader>sv :source $MYVIMRC<cr> :nohlsearch<cr>$/;"	m
+<leader>t	vim/vimrc.vim	/^nmap <silent> <leader>t :FZF<cr>$/;"	m
+<leader>y	vim/vimrc.vim	/^nmap <silent> <leader>y :NERDTreeFind<cr>$/;"	m
+<tab>	vim/vimrc.vim	/^nnoremap <tab> :bn<cr>$/;"	m
+API changes (for highlighter authors):	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## API changes (for highlighter authors):$/;"	s
+Add debug script for font issues	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Add debug script for font issues$/;"	S
+Add debug script for iTerm2 issues	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Add debug script for iTerm2 issues$/;"	S
+Add new segments `host` and `user`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Add new segments `host` and `user`$/;"	S
+Added ability for "joined" segments	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Added ability for "joined" segments$/;"	S
+Added highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Added highlighting of:$/;"	s
+Added the ability to have empty left or right prompts	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Added the ability to have empty left or right prompts$/;"	S
+Arch Linux via the AUR	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Arch Linux via the AUR$/;"	S
+Attribution	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Attribution$/;"	s
+Available Prompt Segments	zsh/custom/themes/powerlevel9k/README.md	/^#### Available Prompt Segments$/;"	t
+Basic Tests	zsh/custom/themes/powerlevel9k/TESTS.md	/^## Basic Tests$/;"	s
+Build Process	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Build Process$/;"	S
+Changelog	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^# Changelog$/;"	c
+Changes in version 0.3.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.3.0$/;"	c
+Changes in version 0.4.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.4.0$/;"	c
+Changes in version 0.4.1	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.4.1$/;"	c
+Changes in version 0.5.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.5.0$/;"	c
+Changes in version 0.6.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.6.0$/;"	c
+Configuration	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Configuration$/;"	s
+Contributor Covenant Code of Conduct	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^# Contributor Covenant Code of Conduct$/;"	c
+Customizing Prompt Segments	zsh/custom/themes/powerlevel9k/README.md	/^#### Customizing Prompt Segments$/;"	t
+DOC_DIR	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^DOC_DIR?=$(DESTDIR)$(PREFIX)\/share\/doc\/$(NAME)$/;"	m
+Developer-visible changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Developer-visible changes:$/;"	s
+Development	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Development$/;"	s
+Development changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Development changes$/;"	S
+Disabling / Enabling Powerlevel9k	zsh/custom/themes/powerlevel9k/README.md	/^### Disabling \/ Enabling Powerlevel9k$/;"	S
+Disabling suggestion for large buffers	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Disabling suggestion for large buffers$/;"	S
+Docker	zsh/custom/themes/powerlevel9k/TESTS.md	/^## Docker$/;"	s
+Does syntax highlighting work during incremental history search?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### Does syntax highlighting work during incremental history search?$/;"	S
+Double quotes are important here!	zsh/custom/themes/powerlevel9k/README.md	/^# Double quotes are important here!$/;"	c
+Enable Asynchronous Mode	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Enable Asynchronous Mode$/;"	S
+Enforcement	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Enforcement$/;"	s
+Example	zsh/custom/pure/readme.md	/^## Example$/;"	s
+Example	zsh/custom/pure/readme.md	/^#### Example$/;"	t
+FAQ	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^FAQ$/;"	s
+FAQ	zsh/custom/pure/readme.md	/^## FAQ$/;"	s
+Fixed highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixed highlighting of:$/;"	s
+Fixes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixes:$/;"	s
+Forward compatibility.	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^#### Forward compatibility.$/;"	t
+Forward compatibility.	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^#### Forward compatibility.$/;"	t
+FreeBSD 10.1	zsh/custom/pure/readme.md	/^#### FreeBSD 10.1$/;"	t
+General information	zsh/custom/pure/.github/issue_template.md	/^### General information$/;"	S
+Gentoo	zsh/custom/pure/readme.md	/^#### Gentoo$/;"	t
+Getting started	zsh/custom/pure/readme.md	/^## Getting started$/;"	s
+HEADER_FILES	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^HEADER_FILES := \\$/;"	m
+Hacking on zsh-syntax-highlighting itself	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Hacking on zsh-syntax-highlighting itself$/;"	c
+Highlighting test	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Highlighting test$/;"	s
+How are new releases announced?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### How are new releases announced?$/;"	S
+How to activate highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to activate highlighters$/;"	s
+How to implement a new highlighter	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to implement a new highlighter$/;"	s
+How to install	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^How to install$/;"	s
+How to install	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^How to install$/;"	s
+How to tweak	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^How to tweak$/;"	s
+How to tweak highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to tweak highlighters$/;"	s
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/brackets.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/cursor.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/line.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/pattern.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/root.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/README.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/README.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/README.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/README.md	/^### How to tweak it$/;"	S
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/README.md	/^### How to tweak it$/;"	S
+I am seeing the error `zpty: can't open pseudo terminal: bad file descriptor`.	zsh/custom/pure/readme.md	/^### I am seeing the error `zpty: can't open pseudo terminal: bad file descriptor`.$/;"	S
+I am stuck in a shell loop in my terminal that asks me to authenticate. What should I do?	zsh/custom/pure/readme.md	/^### I am stuck in a shell loop in my terminal that asks me to authenticate. What should I do?$/;"	S
+INSTALL	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^INSTALL?=install -c$/;"	m
+IRC channel	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^IRC channel$/;"	s
+Icon overriding mechanism added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Icon overriding mechanism added$/;"	S
+In your ~/.zshrc	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### In your ~\/.zshrc$/;"	S
+Install	zsh/custom/pure/readme.md	/^## Install$/;"	s
+Installation	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Installation$/;"	s
+Installation	zsh/custom/themes/powerlevel9k/README.md	/^### Installation$/;"	S
+Installation	zsh/custom/themes/powerlevel9k/test-vm/README.md	/^## Installation$/;"	s
+Integration	zsh/custom/pure/readme.md	/^## Integration$/;"	s
+Introduced "visual identifiers" to the segments	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Introduced "visual identifiers" to the segments$/;"	S
+Key Bindings	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Key Bindings$/;"	S
+License	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## License$/;"	s
+License	zsh/custom/pure/readme.md	/^## License$/;"	s
+License	zsh/custom/themes/powerlevel9k/README.md	/^### License$/;"	S
+Manual	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Manual$/;"	S
+Manual Testing	zsh/custom/themes/powerlevel9k/TESTS.md	/^# Manual Testing$/;"	c
+Manually	zsh/custom/pure/readme.md	/^### Manually$/;"	S
+Miscellany	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Miscellany$/;"	s
+My `.zshrc`:	zsh/custom/pure/.github/issue_template.md	/^### My `.zshrc`:$/;"	S
+NAME	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^NAME=zsh-syntax-highlighting$/;"	m
+NERDTreeDirArrowCollapsible	vim/vimrc.vim	/^let NERDTreeDirArrowCollapsible = '▼'$/;"	v
+NERDTreeDirArrowExpandable	vim/vimrc.vim	/^let NERDTreeDirArrowExpandable = '▷'$/;"	v
+NERDTreeShowHidden	vim/vimrc.vim	/^let NERDTreeShowHidden=1$/;"	v
+New Font Option: nerd-fonts	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New Font Option: nerd-fonts$/;"	S
+New Segment: `kubecontext`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New Segment: `kubecontext`$/;"	S
+New Segment: `newline`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New Segment: `newline`$/;"	S
+New Segment: `vpn`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New Segment: `vpn`$/;"	S
+New Segments: `host` and `user`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New Segments: `host` and `user`$/;"	S
+New segment `anaconda` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `anaconda` added$/;"	S
+New segment `aws_eb_env` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `aws_eb_env` added$/;"	S
+New segment `battery` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `battery` added$/;"	S
+New segment `chruby` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `chruby` added$/;"	S
+New segment `command_execution_time` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `command_execution_time` added$/;"	S
+New segment `custom_command` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `custom_command` added$/;"	S
+New segment `detect_virt` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `detect_virt` added$/;"	S
+New segment `dir_writable` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `dir_writable` added$/;"	S
+New segment `disk_usage` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `disk_usage` added$/;"	S
+New segment `docker_machine` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `docker_machine` added$/;"	S
+New segment `go_version` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `go_version` added$/;"	S
+New segment `ip` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `ip` added$/;"	S
+New segment `load` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `load` added$/;"	S
+New segment `nodeenv` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `nodeenv` added$/;"	S
+New segment `nvm` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `nvm` added$/;"	S
+New segment `os_icon` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `os_icon` added$/;"	S
+New segment `php_version` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `php_version` added$/;"	S
+New segment `public_ip` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `public_ip` added$/;"	S
+New segment `pyenv` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## New segment `pyenv` added$/;"	s
+New segment `rust_version` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `rust_version` added$/;"	S
+New segment `swap` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `swap` added$/;"	S
+New segment `swift_version` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `swift_version` added$/;"	S
+New segment `todo` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `todo` added$/;"	S
+New segment `vi_mode` added	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### New segment `vi_mode` added$/;"	S
+Oh My Zsh	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Oh My Zsh$/;"	S
+Options	zsh/custom/pure/readme.md	/^## Options$/;"	s
+Other changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Other changes:$/;"	s
+Our Pledge	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Our Pledge$/;"	s
+Our Responsibilities	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Our Responsibilities$/;"	s
+Our Standards	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Our Standards$/;"	s
+Output time, date, and a symbol from the "Awesome Powerline Font" set	zsh/custom/themes/powerlevel9k/README.md	/^# Output time, date, and a symbol from the "Awesome Powerline Font" set$/;"	c
+Overview	zsh/custom/pure/readme.md	/^## Overview$/;"	s
+PLUGIN_TARGET	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^PLUGIN_TARGET := zsh-autosuggestions.zsh$/;"	m
+PREFIX	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+Performance improvements:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Performance improvements:$/;"	s
+Performance test	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Performance test$/;"	s
+Ports	zsh/custom/pure/readme.md	/^## Ports$/;"	s
+Problem description	zsh/custom/pure/.github/issue_template.md	/^### Problem description$/;"	S
+Prompt Customization	zsh/custom/themes/powerlevel9k/README.md	/^### Prompt Customization$/;"	S
+Pull Requests	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Pull Requests$/;"	S
+Pure	zsh/custom/pure/readme.md	/^# Pure$/;"	c
+Q	vim/vimrc.vim	/^nnoremap Q :bd<cr>$/;"	m
+Release procedure (for developers):	zsh/custom/plugins/zsh-syntax-highlighting/release.md	/^# Release procedure (for developers):$/;"	c
+Removed features:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Removed features:$/;"	s
+RenameFile	vim/vimrc.vim	/^function! RenameFile()$/;"	f
+Reporting an Issue	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Reporting an Issue$/;"	S
+Reproduction steps	zsh/custom/pure/.github/issue_template.md	/^### Reproduction steps$/;"	S
+Reversed time format	zsh/custom/themes/powerlevel9k/README.md	/^# Reversed time format$/;"	c
+Running	zsh/custom/themes/powerlevel9k/test-vm/README.md	/^## Running$/;"	s
+SHARE_DIR	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^SHARE_DIR?=$(DESTDIR)$(PREFIX)\/share\/$(NAME)$/;"	m
+SRC_DIR	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^SRC_DIR    := .\/src$/;"	m
+SRC_FILES	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^SRC_FILES := \\$/;"	m
+Same color segements get visual separator	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### Same color segements get visual separator$/;"	S
+Scope	zsh/custom/themes/powerlevel9k/CODE_OF_CONDUCT.md	/^## Scope$/;"	s
+Segment Tests	zsh/custom/themes/powerlevel9k/TESTS.md	/^## Segment Tests$/;"	s
+Strip	vim/vimrc.vim	/^function! Strip()$/;"	f
+Structure	zsh/custom/themes/powerlevel9k/TESTS.md	/^# Structure$/;"	c
+Suggestion Highlight Style	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Suggestion Highlight Style$/;"	S
+Suggestion Strategy	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Suggestion Strategy$/;"	S
+System-wide installation	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### System-wide installation$/;"	S
+TRAPHUP	zsh/custom/pure/async.zsh	/^	TRAPHUP() {$/;"	f
+Table of Contents	zsh/custom/themes/powerlevel9k/README.md	/^### Table of Contents$/;"	S
+Team	zsh/custom/pure/readme.md	/^## Team$/;"	s
+TerminalSession	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^class TerminalSession$/;"	c
+Test Antigen with the oldest version of ZSH	zsh/custom/themes/powerlevel9k/TESTS.md	/^# Test Antigen with the oldest version of ZSH$/;"	c
+Test Prezto with ZSH version 5.2	zsh/custom/themes/powerlevel9k/TESTS.md	/^# Test Prezto with ZSH version 5.2$/;"	c
+Test-VM for powerlevel9k	zsh/custom/themes/powerlevel9k/test-vm/README.md	/^# Test-VM for powerlevel9k$/;"	c
+Testing	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Testing$/;"	S
+Testing	zsh/custom/themes/powerlevel9k/test-vm/README.md	/^## Testing$/;"	s
+Testing the `brackets` highlighter	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Testing the `brackets` highlighter$/;"	s
+Testing the `pattern` highlighter	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Testing the `pattern` highlighter$/;"	s
+The `main` highlighter	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^The `main` highlighter$/;"	s
+Tips	zsh/custom/pure/readme.md	/^## Tips$/;"	s
+Troubleshooting	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Troubleshooting$/;"	s
+Uninstallation	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Uninstallation$/;"	s
+Unit Test Ratios	zsh/custom/themes/powerlevel9k/README.md	/^#### Unit Test Ratios$/;"	t
+Usage	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Usage$/;"	s
+Useless trivia	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^### Useless trivia$/;"	S
+Useless trivia	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^### Useless trivia$/;"	S
+Using packages	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### Using packages$/;"	S
+Vagrant	zsh/custom/themes/powerlevel9k/TESTS.md	/^## Vagrant$/;"	s
+Version 0.2.1	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Version 0.2.1$/;"	c
+Why must `zsh-syntax-highlighting.zsh` be sourced at the end of the `.zshrc` file?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### Why must `zsh-syntax-highlighting.zsh` be sourced at the end of the `.zshrc` file?$/;"	S
+Why?	zsh/custom/pure/readme.md	/^### Why?$/;"	S
+Widget Mapping	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Widget Mapping$/;"	S
+With a plugin manager	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### With a plugin manager$/;"	S
+Writing new tests	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Writing new tests$/;"	s
+ZSH	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^ZSH?=zsh # zsh binary to run tests with$/;"	m
+ZSH_HIGHLIGHT_STYLES=	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^ZSH_HIGHLIGHT_STYLES=()$/;"	f
+[Antigen](https://github.com/zsh-users/antigen)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Antigen](https:\/\/github.com\/zsh-users\/antigen)$/;"	t
+[Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Oh-my-zsh](https:\/\/github.com\/robbyrussell\/oh-my-zsh)$/;"	t
+[Prezto](https://github.com/sorin-ionescu/prezto)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Prezto](https:\/\/github.com\/sorin-ionescu\/prezto)$/;"	t
+[antibody](https://github.com/getantibody/antibody)	zsh/custom/pure/readme.md	/^### [antibody](https:\/\/github.com\/getantibody\/antibody)$/;"	S
+[antigen](https://github.com/zsh-users/antigen)	zsh/custom/pure/readme.md	/^### [antigen](https:\/\/github.com\/zsh-users\/antigen)$/;"	S
+[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)	zsh/custom/pure/readme.md	/^### [oh-my-zsh](https:\/\/github.com\/robbyrussell\/oh-my-zsh)$/;"	S
+[prezto](https://github.com/sorin-ionescu/prezto)	zsh/custom/pure/readme.md	/^### [prezto](https:\/\/github.com\/sorin-ionescu\/prezto)$/;"	S
+[zgen](https://github.com/tarjoilija/zgen)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zgen](https:\/\/github.com\/tarjoilija\/zgen)$/;"	t
+[zim](https://github.com/Eriner/zim)	zsh/custom/pure/readme.md	/^### [zim](https:\/\/github.com\/Eriner\/zim)$/;"	S
+[zplug](https://github.com/zplug/zplug)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zplug](https:\/\/github.com\/zplug\/zplug)$/;"	t
+[zplug](https://github.com/zplug/zplug)	zsh/custom/pure/readme.md	/^### [zplug](https:\/\/github.com\/zplug\/zplug)$/;"	S
+[zplugin](https://github.com/psprint/zplugin)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zplugin](https:\/\/github.com\/psprint\/zplugin)$/;"	t
+\x21[](https://raw.githubusercontent.com/bhilburn/powerlevel9k-logo/master/logo-banner.png)	zsh/custom/themes/powerlevel9k/README.md	/^![](https:\/\/raw.githubusercontent.com\/bhilburn\/powerlevel9k-logo\/master\/logo-banner.png)$/;"	s
+_async_job	zsh/custom/pure/async.zsh	/^_async_job() {$/;"	f
+_async_notify_trap	zsh/custom/pure/async.zsh	/^_async_notify_trap() {$/;"	f
+_async_worker	zsh/custom/pure/async.zsh	/^_async_worker() {$/;"	f
+_async_zle_watcher	zsh/custom/pure/async.zsh	/^_async_zle_watcher() {$/;"	f
+_zsh_autosuggest_accept	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_accept() {$/;"	f
+_zsh_autosuggest_accept	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_accept() {$/;"	f
+_zsh_autosuggest_async_pty_create	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_pty_create() {$/;"	f
+_zsh_autosuggest_async_pty_create	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_pty_create() {$/;"	f
+_zsh_autosuggest_async_pty_destroy	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_pty_destroy() {$/;"	f
+_zsh_autosuggest_async_pty_destroy	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_pty_destroy() {$/;"	f
+_zsh_autosuggest_async_pty_recreate	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_pty_recreate() {$/;"	f
+_zsh_autosuggest_async_pty_recreate	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_pty_recreate() {$/;"	f
+_zsh_autosuggest_async_request	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_request() {$/;"	f
+_zsh_autosuggest_async_request	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_request() {$/;"	f
+_zsh_autosuggest_async_response	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_response() {$/;"	f
+_zsh_autosuggest_async_response	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_response() {$/;"	f
+_zsh_autosuggest_async_server	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_server() {$/;"	f
+_zsh_autosuggest_async_server	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_server() {$/;"	f
+_zsh_autosuggest_async_start	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_start() {$/;"	f
+_zsh_autosuggest_async_start	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_start() {$/;"	f
+_zsh_autosuggest_bind_widget	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_bind_widget() {$/;"	f
+_zsh_autosuggest_bind_widget	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_bind_widget() {$/;"	f
+_zsh_autosuggest_bind_widgets	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_bind_widgets() {$/;"	f
+_zsh_autosuggest_bind_widgets	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_bind_widgets() {$/;"	f
+_zsh_autosuggest_clear	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_clear() {$/;"	f
+_zsh_autosuggest_clear	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_clear() {$/;"	f
+_zsh_autosuggest_disable	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_disable() {$/;"	f
+_zsh_autosuggest_disable	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_disable() {$/;"	f
+_zsh_autosuggest_enable	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_enable() {$/;"	f
+_zsh_autosuggest_enable	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_enable() {$/;"	f
+_zsh_autosuggest_escape_command	zsh/custom/plugins/zsh-autosuggestions/src/util.zsh	/^_zsh_autosuggest_escape_command() {$/;"	f
+_zsh_autosuggest_escape_command	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_escape_command() {$/;"	f
+_zsh_autosuggest_execute	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_execute() {$/;"	f
+_zsh_autosuggest_execute	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_execute() {$/;"	f
+_zsh_autosuggest_feature_detect_zpty_returns_fd	zsh/custom/plugins/zsh-autosuggestions/src/features.zsh	/^_zsh_autosuggest_feature_detect_zpty_returns_fd() {$/;"	f
+_zsh_autosuggest_feature_detect_zpty_returns_fd	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_feature_detect_zpty_returns_fd() {$/;"	f
+_zsh_autosuggest_fetch	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_fetch() {$/;"	f
+_zsh_autosuggest_fetch	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_fetch() {$/;"	f
+_zsh_autosuggest_get_bind_count	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_get_bind_count() {$/;"	f
+_zsh_autosuggest_get_bind_count	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_get_bind_count() {$/;"	f
+_zsh_autosuggest_highlight_apply	zsh/custom/plugins/zsh-autosuggestions/src/highlight.zsh	/^_zsh_autosuggest_highlight_apply() {$/;"	f
+_zsh_autosuggest_highlight_apply	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_highlight_apply() {$/;"	f
+_zsh_autosuggest_highlight_reset	zsh/custom/plugins/zsh-autosuggestions/src/highlight.zsh	/^_zsh_autosuggest_highlight_reset() {$/;"	f
+_zsh_autosuggest_highlight_reset	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_highlight_reset() {$/;"	f
+_zsh_autosuggest_incr_bind_count	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_incr_bind_count() {$/;"	f
+_zsh_autosuggest_incr_bind_count	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_incr_bind_count() {$/;"	f
+_zsh_autosuggest_invoke_original_widget	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_invoke_original_widget() {$/;"	f
+_zsh_autosuggest_invoke_original_widget	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_invoke_original_widget() {$/;"	f
+_zsh_autosuggest_modify	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_modify() {$/;"	f
+_zsh_autosuggest_modify	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_modify() {$/;"	f
+_zsh_autosuggest_partial_accept	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_partial_accept() {$/;"	f
+_zsh_autosuggest_partial_accept	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_partial_accept() {$/;"	f
+_zsh_autosuggest_start	zsh/custom/plugins/zsh-autosuggestions/src/start.zsh	/^_zsh_autosuggest_start() {$/;"	f
+_zsh_autosuggest_start	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_start() {$/;"	f
+_zsh_autosuggest_strategy_default	zsh/custom/plugins/zsh-autosuggestions/src/strategies/default.zsh	/^_zsh_autosuggest_strategy_default() {$/;"	f
+_zsh_autosuggest_strategy_default	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_strategy_default() {$/;"	f
+_zsh_autosuggest_strategy_match_prev_cmd	zsh/custom/plugins/zsh-autosuggestions/src/strategies/match_prev_cmd.zsh	/^_zsh_autosuggest_strategy_match_prev_cmd() {$/;"	f
+_zsh_autosuggest_strategy_match_prev_cmd	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_strategy_match_prev_cmd() {$/;"	f
+_zsh_autosuggest_suggest	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_suggest() {$/;"	f
+_zsh_autosuggest_suggest	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_suggest() {$/;"	f
+_zsh_autosuggest_toggle	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_toggle() {$/;"	f
+_zsh_autosuggest_toggle	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_toggle() {$/;"	f
+_zsh_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/inheritance.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/tests/generate.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_apply_zle_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_apply_zle_highlight() {$/;"	f
+_zsh_highlight_bind_widgets	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_bind_widgets()$/;"	f
+_zsh_highlight_brackets_match	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_brackets_match()$/;"	f
+_zsh_highlight_buffer_modified	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_buffer_modified()$/;"	f
+_zsh_highlight_call_widget	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_call_widget()$/;"	f
+_zsh_highlight_cursor_moved	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_cursor_moved()$/;"	f
+_zsh_highlight_highlighter_brackets_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_highlighter_brackets_paint()$/;"	f
+_zsh_highlight_highlighter_brackets_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_highlighter_brackets_predicate()$/;"	f
+_zsh_highlight_highlighter_cursor_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/cursor-highlighter.zsh	/^_zsh_highlight_highlighter_cursor_paint()$/;"	f
+_zsh_highlight_highlighter_cursor_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/cursor-highlighter.zsh	/^_zsh_highlight_highlighter_cursor_predicate()$/;"	f
+_zsh_highlight_highlighter_line_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/line-highlighter.zsh	/^_zsh_highlight_highlighter_line_paint()$/;"	f
+_zsh_highlight_highlighter_line_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/line-highlighter.zsh	/^_zsh_highlight_highlighter_line_predicate()$/;"	f
+_zsh_highlight_highlighter_main_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_highlighter_main_paint()$/;"	f
+_zsh_highlight_highlighter_main_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_highlighter_main_predicate()$/;"	f
+_zsh_highlight_highlighter_pattern_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_highlighter_pattern_paint()$/;"	f
+_zsh_highlight_highlighter_pattern_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_highlighter_pattern_predicate()$/;"	f
+_zsh_highlight_highlighter_root_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/root-highlighter.zsh	/^_zsh_highlight_highlighter_root_paint()$/;"	f
+_zsh_highlight_highlighter_root_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/root-highlighter.zsh	/^_zsh_highlight_highlighter_root_predicate()$/;"	f
+_zsh_highlight_load_highlighters	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_load_highlighters()$/;"	f
+_zsh_highlight_main__command_type_cache=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^  _zsh_highlight_main__command_type_cache=()$/;"	f
+_zsh_highlight_main__is_redirection	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__is_redirection() {$/;"	f
+_zsh_highlight_main__precmd_hook	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__precmd_hook() {$/;"	f
+_zsh_highlight_main__resolve_alias	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__resolve_alias() {$/;"	f
+_zsh_highlight_main__stack_pop	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__stack_pop() {$/;"	f
+_zsh_highlight_main__type	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__type() {$/;"	f
+_zsh_highlight_main_add_region_highlight	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_add_region_highlight() {$/;"	f
+_zsh_highlight_main_highlighter_check_assign	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_check_assign()$/;"	f
+_zsh_highlight_main_highlighter_check_path	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_check_path()$/;"	f
+_zsh_highlight_main_highlighter_expand_path	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_expand_path()$/;"	f
+_zsh_highlight_main_highlighter_highlight_dollar_string	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_dollar_string()$/;"	f
+_zsh_highlight_main_highlighter_highlight_path_separators	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_path_separators()$/;"	f
+_zsh_highlight_main_highlighter_highlight_string	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_string()$/;"	f
+_zsh_highlight_pattern_highlighter_loop	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_pattern_highlighter_loop()$/;"	f
+_zsh_highlight_preexec_hook	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_preexec_hook()$/;"	f
+`PURE_CMD_MAX_EXEC_TIME`	zsh/custom/pure/readme.md	/^### `PURE_CMD_MAX_EXEC_TIME`$/;"	S
+`PURE_GIT_DELAY_DIRTY_CHECK`	zsh/custom/pure/readme.md	/^### `PURE_GIT_DELAY_DIRTY_CHECK`$/;"	S
+`PURE_GIT_DOWN_ARROW`	zsh/custom/pure/readme.md	/^### `PURE_GIT_DOWN_ARROW`$/;"	S
+`PURE_GIT_PULL`	zsh/custom/pure/readme.md	/^### `PURE_GIT_PULL`$/;"	S
+`PURE_GIT_UNTRACKED_DIRTY`	zsh/custom/pure/readme.md	/^### `PURE_GIT_UNTRACKED_DIRTY`$/;"	S
+`PURE_GIT_UP_ARROW`	zsh/custom/pure/readme.md	/^### `PURE_GIT_UP_ARROW`$/;"	S
+`PURE_PROMPT_SYMBOL`	zsh/custom/pure/readme.md	/^### `PURE_PROMPT_SYMBOL`$/;"	S
+`anaconda` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## `anaconda` changes$/;"	s
+`background_jobs` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `background_jobs` changes$/;"	S
+`dir` Shortening Strategies	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `dir` Shortening Strategies$/;"	S
+`dir` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `dir` changes$/;"	S
+`dir` segment has different strategies for truncation	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `dir` segment has different strategies for truncation$/;"	S
+`load` and `ram` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `load` and `ram` changes$/;"	S
+`load` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `load` changes$/;"	S
+`longstatus` is now `status`	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `longstatus` is now `status`$/;"	S
+`node`, `nvm` Segments	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `node`, `nvm` Segments$/;"	S
+`ram` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `ram` changes$/;"	S
+`rbenv` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `rbenv` changes$/;"	S
+`rvm` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `rvm` changes$/;"	S
+`status` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `status` changes$/;"	S
+`truncate_with_package_name` now searches for `composer.json` as well	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^#### `truncate_with_package_name` now searches for `composer.json` as well$/;"	t
+`vcs` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `vcs` changes$/;"	S
+`virtualenv` changes	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^### `virtualenv` changes$/;"	S
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/off-by-one.zsh	/^alias a=A$/;"	a
+a displayed suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/options/highlight_style_spec.rb	/^describe 'a displayed suggestion' do$/;"	d
+a modification to the widget lists	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^describe 'a modification to the widget lists' do$/;"	d
+a multi-line suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/multi_line_spec.rb	/^describe 'a multi-line suggestion' do$/;"	d
+a running zpty command	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/client_zpty_spec.rb	/^describe 'a running zpty command' do$/;"	d
+a special character in the buffer	zsh/custom/plugins/zsh-autosuggestions/spec/special_characters_spec.rb	/^describe 'a special character in the buffer' do$/;"	d
+a suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/options/buffer_max_size_spec.rb	/^describe 'a suggestion' do$/;"	d
+a suggestion for a given prefix	zsh/custom/plugins/zsh-autosuggestions/spec/options/strategy_spec.rb	/^describe 'a suggestion for a given prefix' do$/;"	d
+a wrapped widget	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^describe 'a wrapped widget' do$/;"	d
+a zle widget	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^describe 'a zle widget' do$/;"	d
+alias1	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^alias alias1="unused expansion"$/;"	a
+alias1	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^alias1() {} # to check that it's highlighted as an alias, not as a function$/;"	f
+all	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^all: $(PLUGIN_TARGET)$/;"	t
+all	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^all:$/;"	t
+an original zle widget	zsh/custom/plugins/zsh-autosuggestions/spec/options/original_widget_prefix_spec.rb	/^describe 'an original zle widget' do$/;"	d
+anaconda	zsh/custom/themes/powerlevel9k/README.md	/^##### anaconda$/;"	T
+arg0	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^        alias arg0$/;"	a
+arg0	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^        function arg0$/;"	f
+async	zsh/custom/pure/async.zsh	/^async() {$/;"	f
+async_flush_jobs	zsh/custom/pure/async.zsh	/^async_flush_jobs() {$/;"	f
+async_init	zsh/custom/pure/async.zsh	/^async_init() {$/;"	f
+async_job	zsh/custom/pure/async.zsh	/^async_job() {$/;"	f
+async_process_results	zsh/custom/pure/async.zsh	/^async_process_results() {$/;"	f
+async_register_callback	zsh/custom/pure/async.zsh	/^async_register_callback() {$/;"	f
+async_start_worker	zsh/custom/pure/async.zsh	/^async_start_worker() {$/;"	f
+async_stop_worker	zsh/custom/pure/async.zsh	/^async_stop_worker() {$/;"	f
+async_unregister_callback	zsh/custom/pure/async.zsh	/^async_unregister_callback() {$/;"	f
+author	zsh/custom/pure/package.json	/^  "author": {$/;"	o
+aws	zsh/custom/themes/powerlevel9k/README.md	/^##### aws$/;"	T
+background_jobs	zsh/custom/themes/powerlevel9k/README.md	/^##### background_jobs$/;"	T
+battery	zsh/custom/themes/powerlevel9k/README.md	/^##### battery$/;"	T
+build_and_run	zsh/custom/themes/powerlevel9k/test-in-docker	/^build_and_run() {$/;"	f
+c	zsh/zshrc.sh	/^alias c="clear"$/;"	a
+cd	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh	/^cd() {$/;"	f
+check_for_known_issues	zsh/custom/themes/powerlevel9k/test-in-docker	/^check_for_known_issues() {$/;"	f
+child_exit	zsh/custom/pure/async.zsh	/^	child_exit() {$/;"	f
+clean	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^clean:$/;"	t
+clean	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^clean:$/;"	t
+clear_screen	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def clear_screen$/;"	f	class:TerminalSession
+command_execution_time	zsh/custom/themes/powerlevel9k/README.md	/^##### command_execution_time$/;"	T
+content	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def content(esc_seqs: false)$/;"	f	class:TerminalSession
+context	zsh/custom/themes/powerlevel9k/README.md	/^##### context$/;"	T
+cursor	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def cursor$/;"	f	class:TerminalSession
+custom_command	zsh/custom/themes/powerlevel9k/README.md	/^##### custom_command$/;"	T
+defined	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function defined() {$/;"	f
+description	zsh/custom/pure/package.json	/^  "description": "Pretty, minimal and fast ZSH prompt",$/;"	s
+destroy	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def destroy$/;"	f	class:TerminalSession
+dir	zsh/custom/themes/powerlevel9k/README.md	/^##### dir$/;"	T
+disk_usage	zsh/custom/themes/powerlevel9k/README.md	/^##### disk_usage$/;"	T
+email	zsh/custom/pure/package.json	/^    "email": "sindresorhus@gmail.com",$/;"	s	object:author
+engines	zsh/custom/pure/package.json	/^  "engines": {$/;"	o
+err	zsh/custom/themes/powerlevel9k/test-in-docker	/^err()$/;"	f
+expected_region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^expected_region_highlight=()$/;"	f
+ez	zsh/zshrc.sh	/^alias ez="vim $HOME\/.zshrc"$/;"	a
+f	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/off-by-one.zsh	/^f() {}$/;"	f
+files	zsh/custom/pure/package.json	/^  "files": [$/;"	a
+filetypes	vim/vimrc.vim	/^augroup filetypes$/;"	a
+g:airline#extensions#tabline#enabled	vim/vimrc.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#fnamemod	vim/vimrc.vim	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v
+g:airline_powerline_fonts	vim/vimrc.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_theme	vim/vimrc.vim	/^let g:airline_theme='luna'$/;"	v
+g:fzf_layout	vim/vimrc.vim	/^let g:fzf_layout = { 'down': '~25%' }$/;"	v
+g:gutentags_cache_dir	vim/vimrc.vim	/^let g:gutentags_cache_dir = '~\/.vim\/gutentags'$/;"	v
+g:gutentags_exclude	vim/vimrc.vim	/^let g:gutentags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',$/;"	v
+g:javascript_plugin_flow	vim/vimrc.vim	/^let g:javascript_plugin_flow = 1$/;"	v
+g:plug_window	vim/vimrc.vim	/^let g:plug_window = "split new"$/;"	v
+g:solarized_contrast	vim/vimrc.vim	/^let g:solarized_contrast = "high"$/;"	v
+g:solarized_termcolors	vim/vimrc.vim	/^let g:solarized_termcolors=16$/;"	v
+g:solarized_termtrans	vim/vimrc.vim	/^let g:solarized_termtrans = 1 " This gets rid of the grey background$/;"	v
+g:solarized_visibility	vim/vimrc.vim	/^let g:solarized_visibility = "high"$/;"	v
+g:undotree_DiffAutoOpen	vim/vimrc.vim	/^let g:undotree_DiffAutoOpen=0$/;"	v
+g:undotree_SetFocusWhenToggle	vim/vimrc.vim	/^let g:undotree_SetFocusWhenToggle=1$/;"	v
+g:used_javascript_libs	vim/vimrc.vim	/^let g:used_javascript_libs = 'angularjs,angularui,angularuirouter'$/;"	v
+getColorCode	zsh/custom/themes/powerlevel9k/functions/colors.zsh	/^function getColorCode() {$/;"	f
+getRelevantItem	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function getRelevantItem() {$/;"	f
+get_icon_names	zsh/custom/themes/powerlevel9k/functions/icons.zsh	/^get_icon_names() {$/;"	f
+get_term	zsh/custom/themes/powerlevel9k/debug/font-issues.zsh	/^get_term() {$/;"	f
+get_term_font	zsh/custom/themes/powerlevel9k/debug/font-issues.zsh	/^get_term_font() {$/;"	f
+host	zsh/custom/themes/powerlevel9k/README.md	/^##### host$/;"	T
+initialize	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def initialize(opts = {})$/;"	f	class:TerminalSession
+initialized after sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^  context 'initialized after sourcing the plugin' do$/;"	c
+initialized before sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^  context 'initialized before sourcing the plugin' do$/;"	c
+install	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^install: all$/;"	t
+invoked on a non-empty buffer	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^  context 'invoked on a non-empty buffer' do$/;"	c
+invoked on an empty buffer	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^  context 'invoked on an empty buffer' do$/;"	c
+ip	zsh/custom/themes/powerlevel9k/README.md	/^##### ip$/;"	T
+isSameColor	zsh/custom/themes/powerlevel9k/functions/colors.zsh	/^function isSameColor() {$/;"	f
+j	vim/vimrc.vim	/^noremap j gj$/;"	m
+k	vim/vimrc.vim	/^noremap k gk$/;"	m
+keywords	zsh/custom/pure/package.json	/^  "keywords": [$/;"	a
+killjobs	zsh/custom/pure/async.zsh	/^	killjobs() {$/;"	f
+license	zsh/custom/pure/package.json	/^  "license": "MIT",$/;"	s
+load	zsh/custom/themes/powerlevel9k/README.md	/^##### load$/;"	T
+ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh	/^ls() {$/;"	f
+macOS via Homebrew	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### macOS via Homebrew$/;"	S
+maintainers	zsh/custom/pure/package.json	/^  "maintainers": [$/;"	a
+mapleader	vim/vimrc.vim	/^let mapleader = ','$/;"	v
+maplocalleader	vim/vimrc.vim	/^let maplocalleader="\\<Space>"$/;"	v
+misc	vim/vimrc.vim	/^augroup misc$/;"	a
+name	zsh/custom/pure/package.json	/^      "name": "Mathias Fredriksson",$/;"	s	object:maintainers.0
+name	zsh/custom/pure/package.json	/^    "name": "Sindre Sorhus",$/;"	s	object:author
+name	zsh/custom/pure/package.json	/^  "name": "pure-prompt",$/;"	s
+newline	zsh/custom/themes/powerlevel9k/README.md	/^##### newline$/;"	T
+node	zsh/custom/pure/package.json	/^    "node": ">=0.10.0"$/;"	s	object:engines
+npm	zsh/custom/pure/readme.md	/^### npm$/;"	S
+optionally define some options	zsh/custom/pure/readme.md	/^# optionally define some options$/;"	c
+paste_string	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def paste_string(str)$/;"	f	class:TerminalSession
+pasting using bracketed-paste-magic	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb	/^describe 'pasting using bracketed-paste-magic' do$/;"	d
+perf	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^perf:$/;"	t
+postinstall	zsh/custom/pure/package.json	/^    "postinstall": "PURE_DEST=\/usr\/local\/share\/zsh\/site-functions npm run --silent postinst/;"	s	object:scripts
+postinstall-fail-instructions	zsh/custom/pure/package.json	/^    "postinstall-fail-instructions": "echo \\"ERROR: Could not automagically symlink the prompt./;"	s	object:scripts
+postinstall-link	zsh/custom/pure/package.json	/^    "postinstall-link": "mkdir -p \\"$PURE_DEST\\" && ln -sf \\"$PWD\/pure.zsh\\" \\"$PURE_DEST\//;"	s	object:scripts
+printSizeHumanReadable	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^printSizeHumanReadable() {$/;"	f
+print_deprecation_warning	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^print_deprecation_warning() {$/;"	f
+print_icon	zsh/custom/themes/powerlevel9k/functions/icons.zsh	/^function print_icon() {$/;"	f
+prompt_pure_async_callback	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_callback() {$/;"	f
+prompt_pure_async_callback	zsh/custom/pure/pure.zsh	/^prompt_pure_async_callback() {$/;"	f
+prompt_pure_async_git_aliases	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_git_aliases() {$/;"	f
+prompt_pure_async_git_aliases	zsh/custom/pure/pure.zsh	/^prompt_pure_async_git_aliases() {$/;"	f
+prompt_pure_async_git_arrows	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_git_arrows() {$/;"	f
+prompt_pure_async_git_arrows	zsh/custom/pure/pure.zsh	/^prompt_pure_async_git_arrows() {$/;"	f
+prompt_pure_async_git_dirty	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_git_dirty() {$/;"	f
+prompt_pure_async_git_dirty	zsh/custom/pure/pure.zsh	/^prompt_pure_async_git_dirty() {$/;"	f
+prompt_pure_async_git_fetch	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_git_fetch() {$/;"	f
+prompt_pure_async_git_fetch	zsh/custom/pure/pure.zsh	/^prompt_pure_async_git_fetch() {$/;"	f
+prompt_pure_async_refresh	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_refresh() {$/;"	f
+prompt_pure_async_refresh	zsh/custom/pure/pure.zsh	/^prompt_pure_async_refresh() {$/;"	f
+prompt_pure_async_tasks	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_tasks() {$/;"	f
+prompt_pure_async_tasks	zsh/custom/pure/pure.zsh	/^prompt_pure_async_tasks() {$/;"	f
+prompt_pure_async_vcs_info	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_async_vcs_info() {$/;"	f
+prompt_pure_async_vcs_info	zsh/custom/pure/pure.zsh	/^prompt_pure_async_vcs_info() {$/;"	f
+prompt_pure_check_cmd_exec_time	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_check_cmd_exec_time() {$/;"	f
+prompt_pure_check_cmd_exec_time	zsh/custom/pure/pure.zsh	/^prompt_pure_check_cmd_exec_time() {$/;"	f
+prompt_pure_check_git_arrows	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_check_git_arrows() {$/;"	f
+prompt_pure_check_git_arrows	zsh/custom/pure/pure.zsh	/^prompt_pure_check_git_arrows() {$/;"	f
+prompt_pure_human_time_to_var	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_human_time_to_var() {$/;"	f
+prompt_pure_human_time_to_var	zsh/custom/pure/pure.zsh	/^prompt_pure_human_time_to_var() {$/;"	f
+prompt_pure_precmd	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_precmd() {$/;"	f
+prompt_pure_precmd	zsh/custom/pure/pure.zsh	/^prompt_pure_precmd() {$/;"	f
+prompt_pure_preexec	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_preexec() {$/;"	f
+prompt_pure_preexec	zsh/custom/pure/pure.zsh	/^prompt_pure_preexec() {$/;"	f
+prompt_pure_preprompt_render	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_preprompt_render() {$/;"	f
+prompt_pure_preprompt_render	zsh/custom/pure/pure.zsh	/^prompt_pure_preprompt_render() {$/;"	f
+prompt_pure_set_title	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_set_title() {$/;"	f
+prompt_pure_set_title	zsh/custom/pure/pure.zsh	/^prompt_pure_set_title() {$/;"	f
+prompt_pure_setup	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_setup() {$/;"	f
+prompt_pure_setup	zsh/custom/pure/pure.zsh	/^prompt_pure_setup() {$/;"	f
+prompt_pure_string_length_to_var	zsh/custom/pure/pure.plugin.zsh	/^prompt_pure_string_length_to_var() {$/;"	f
+prompt_pure_string_length_to_var	zsh/custom/pure/pure.zsh	/^prompt_pure_string_length_to_var() {$/;"	f
+public_ip	zsh/custom/themes/powerlevel9k/README.md	/^##### public_ip$/;"	T
+quiet-test	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^quiet-test:$/;"	t
+ram	zsh/custom/themes/powerlevel9k/README.md	/^##### ram$/;"	T
+rbenv	zsh/custom/themes/powerlevel9k/README.md	/^##### rbenv$/;"	T
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/tests/generate.zsh	/^  region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^        region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^    region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^  region_highlight=();$/;"	f
+repository	zsh/custom/pure/package.json	/^  "repository": "sindresorhus\/pure",$/;"	s
+resolve_framework	zsh/custom/themes/powerlevel9k/test-in-docker	/^resolve_framework() {$/;"	f
+resolve_version	zsh/custom/themes/powerlevel9k/test-in-docker	/^resolve_version() {$/;"	f
+rspec_stats	zsh/custom/themes/powerlevel9k/README.md	/^##### rspec_stats$/;"	T
+run_command	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def run_command(command)$/;"	f	class:TerminalSession
+run_test	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^run_test() {$/;"	f
+run_test	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-perfs.zsh	/^run_test() {$/;"	f
+run_test_internal	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^run_test_internal() {$/;"	f
+run_test_internal	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-perfs.zsh	/^run_test_internal() {$/;"	f
+scripts	zsh/custom/pure/package.json	/^  "scripts": {$/;"	o
+segmentShouldBeJoined	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function segmentShouldBeJoined() {$/;"	f
+segment_in_use	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^segment_in_use() {$/;"	f
+send_keys	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def send_keys(*keys)$/;"	f	class:TerminalSession
+send_string	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def send_string(str)$/;"	f	class:TerminalSession
+set_default	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function set_default() {$/;"	f
+show_help	zsh/custom/themes/powerlevel9k/test-in-docker	/^show_help() {$/;"	f
+status	zsh/custom/themes/powerlevel9k/README.md	/^##### status$/;"	T
+suggestion fetching	zsh/custom/plugins/zsh-autosuggestions/spec/options/use_async_spec.rb	/^describe 'suggestion fetching' do$/;"	d
+symfony2_tests	zsh/custom/themes/powerlevel9k/README.md	/^##### symfony2_tests$/;"	T
+test	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^test: all$/;"	t
+test	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^test:$/;"	t
+that modifies the buffer	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'that modifies the buffer' do$/;"	c
+that moves the cursor forward	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'that moves the cursor forward' do$/;"	c
+the `autosuggest-disable` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/disable_spec.rb	/^describe 'the `autosuggest-disable` widget' do$/;"	d
+the `autosuggest-enable` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^describe 'the `autosuggest-enable` widget' do$/;"	d
+the `autosuggest-fetch` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/fetch_spec.rb	/^describe 'the `autosuggest-fetch` widget' do$/;"	d
+the `autosuggest-toggle` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/toggle_spec.rb	/^describe 'the `autosuggest-toggle` widget' do$/;"	d
+the default suggestion strategy	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/default_spec.rb	/^describe 'the default suggestion strategy' do$/;"	d
+the match_prev_cmd strategy	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/match_prev_cmd_spec.rb	/^describe 'the match_prev_cmd strategy' do$/;"	d
+the zpty for async suggestions	zsh/custom/plugins/zsh-autosuggestions/spec/options/async_zpty_name_spec.rb	/^  describe 'the zpty for async suggestions' do$/;"	d
+time	zsh/custom/themes/powerlevel9k/README.md	/^##### time$/;"	T
+time_out	zsh/zshrc_manager.sh	/^time_out () { perl -e 'alarm shift; exec @ARGV' "$@"; }$/;"	f
+tl; dr	zsh/custom/themes/powerlevel9k/README.md	/^### tl; dr$/;"	S
+tmux_command	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def tmux_command(cmd)$/;"	f	class:TerminalSession
+tmux_socket_name	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def tmux_socket_name$/;"	f	class:TerminalSession
+truncatePathFromRight	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function truncatePathFromRight() {$/;"	f
+upsearch	zsh/custom/themes/powerlevel9k/functions/utilities.zsh	/^function upsearch () {$/;"	f
+url	zsh/custom/pure/package.json	/^      "url": "github.com\/mafredri"$/;"	s	object:maintainers.0
+url	zsh/custom/pure/package.json	/^    "url": "sindresorhus.com"$/;"	s	object:author
+user	zsh/custom/themes/powerlevel9k/README.md	/^##### user$/;"	T
+using `zle -U`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/zle_input_stack_spec.rb	/^describe 'using `zle -U`' do$/;"	d
+v0.1.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.1.0$/;"	s
+v0.2.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.2.0$/;"	s
+v0.2.17	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.2.17$/;"	s
+v0.3.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.0$/;"	s
+v0.3.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.3.0$/;"	s
+v0.3.1	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.1$/;"	s
+v0.3.1	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.3.1$/;"	s
+v0.3.2	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.2$/;"	s
+v0.3.2	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.3.2$/;"	s
+v0.3.3	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.3$/;"	s
+v0.4.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.4.0$/;"	s
+v0.4.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.4.0$/;"	s
+v0.5.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.5.0$/;"	s
+v0.6.0	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.6.0$/;"	s
+v0.6.2	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.6.2$/;"	s
+v0.6.3	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.6.3$/;"	s
+v0.6.4	zsh/custom/themes/powerlevel9k/CHANGELOG.md	/^## v0.6.4$/;"	s
+vcs	zsh/custom/themes/powerlevel9k/README.md	/^##### vcs$/;"	T
+vcs symbols	zsh/custom/themes/powerlevel9k/README.md	/^##### vcs symbols$/;"	T
+version	zsh/custom/pure/package.json	/^  "version": "1.6.0",$/;"	s
+vi_mode	zsh/custom/themes/powerlevel9k/README.md	/^##### vi_mode$/;"	T
+vpn_ip	zsh/custom/themes/powerlevel9k/README.md	/^##### vpn_ip$/;"	T
+when ZSH_AUTOSUGGEST_ASYNC_PTY_NAME is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/async_zpty_name_spec.rb	/^    context 'when ZSH_AUTOSUGGEST_ASYNC_PTY_NAME is set' do$/;"	c
+when ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE is specified	zsh/custom/plugins/zsh-autosuggestions/spec/options/buffer_max_size_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE is specified' do$/;"	c
+when ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE is set to a zle_highlight string	zsh/custom/plugins/zsh-autosuggestions/spec/options/highlight_style_spec.rb	/^  describe 'when ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE is set to a zle_highlight string' do$/;"	d
+when ZSH_AUTOSUGGEST_ORIGINAL_WIDGET_PREFIX is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/original_widget_prefix_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_ORIGINAL_WIDGET_PREFIX is set' do$/;"	c
+when ZSH_AUTOSUGGEST_STRATEGY is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/strategy_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_STRATEGY is set' do$/;"	c
+when ZSH_AUTOSUGGEST_USE_ASYNC is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/use_async_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_USE_ASYNC is set' do$/;"	c
+when added to ZSH_AUTOSUGGEST_ACCEPT_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_ACCEPT_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_CLEAR_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_CLEAR_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_EXECUTE_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_EXECUTE_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_IGNORE_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_IGNORE_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^    context 'when added to ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS' do$/;"	c
+when async suggestions are enabled	zsh/custom/plugins/zsh-autosuggestions/spec/options/async_zpty_name_spec.rb	/^context 'when async suggestions are enabled' do$/;"	c
+when not added to any of the widget lists	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^    context 'when not added to any of the widget lists' do$/;"	c
+when suggestions are disabled	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/fetch_spec.rb	/^  context 'when suggestions are disabled' do$/;"	c
+with suggestions disabled while pasting	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb	/^  context 'with suggestions disabled while pasting' do$/;"	c
+with_history	zsh/custom/plugins/zsh-autosuggestions/spec/spec_helper.rb	/^  def with_history(*commands, &block)$/;"	f
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/noglob-alias.zsh	/^alias x=command$/;"	a
+zsh-autosuggestions	zsh/custom/plugins/zsh-autosuggestions/README.md	/^# zsh-autosuggestions$/;"	c
+zsh-syntax-highlighting / highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^zsh-syntax-highlighting \/ highlighters$/;"	c
+zsh-syntax-highlighting / highlighters	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/README.md	/^zsh-syntax-highlighting \/ highlighters$/;"	c
+zsh-syntax-highlighting / highlighters / brackets	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/brackets.md	/^zsh-syntax-highlighting \/ highlighters \/ brackets$/;"	s
+zsh-syntax-highlighting / highlighters / brackets	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/README.md	/^zsh-syntax-highlighting \/ highlighters \/ brackets$/;"	s
+zsh-syntax-highlighting / highlighters / cursor	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/cursor.md	/^zsh-syntax-highlighting \/ highlighters \/ cursor$/;"	s
+zsh-syntax-highlighting / highlighters / cursor	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/README.md	/^zsh-syntax-highlighting \/ highlighters \/ cursor$/;"	s
+zsh-syntax-highlighting / highlighters / line	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/line.md	/^zsh-syntax-highlighting \/ highlighters \/ line$/;"	s
+zsh-syntax-highlighting / highlighters / line	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/README.md	/^zsh-syntax-highlighting \/ highlighters \/ line$/;"	s
+zsh-syntax-highlighting / highlighters / main	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^zsh-syntax-highlighting \/ highlighters \/ main$/;"	s
+zsh-syntax-highlighting / highlighters / main	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^zsh-syntax-highlighting \/ highlighters \/ main$/;"	s
+zsh-syntax-highlighting / highlighters / pattern	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/pattern.md	/^zsh-syntax-highlighting \/ highlighters \/ pattern$/;"	s
+zsh-syntax-highlighting / highlighters / pattern	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/README.md	/^zsh-syntax-highlighting \/ highlighters \/ pattern$/;"	s
+zsh-syntax-highlighting / highlighters / root	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/root.md	/^zsh-syntax-highlighting \/ highlighters \/ root$/;"	s
+zsh-syntax-highlighting / highlighters / root	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/README.md	/^zsh-syntax-highlighting \/ highlighters \/ root$/;"	s
+zsh-syntax-highlighting / tests	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^zsh-syntax-highlighting \/ tests$/;"	c
+zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]$/;"	c
+zshexit	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^	zshexit() {$/;"	f
+zshexit	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^	zshexit() {$/;"	f
+{cur_widget}	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^           _zsh_highlight_widget_${cur_widget}() { :; _zsh_highlight }$/;"	f
+·	vim/vimrc.vim	/^noremap · ^$/;"	m
